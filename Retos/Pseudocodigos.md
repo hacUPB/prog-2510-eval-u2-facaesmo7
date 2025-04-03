@@ -128,4 +128,20 @@ Fin
 
     Escribir "e^", x, " ≈ ", resultado
 Fin
-10.
+10. INICIO  
+    Escribir "Ingrese el ángulo en radianes: "
+    Leer x
+    Escribir "Ingrese el número de términos de la serie: "
+    Leer n
+
+    seno ← 0
+    signo ← 1
+
+    Para i desde 0 hasta n-1 hacer
+        término ← (x^(2*i + 1)) / ( (2*i + 1)! )
+        seno ← seno + (signo * término)
+        signo ← signo * -1
+    Fin Para
+
+    Escribir "El seno de", x, "es aproximadamente", seno
+FIN
