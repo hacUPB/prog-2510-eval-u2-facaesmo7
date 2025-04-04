@@ -1,3 +1,4 @@
+```
 1.Inicio
     Leer X1, Y1, X2, Y2
     Dx = X2 - X1
@@ -11,13 +12,17 @@ Fin
     pulgadas = metros / 0.0254
     Escribir "La cantidad en pulgadas es: ", pulgadas
 Fin
+```
 
+```
 3. Inicio
     Leer A, B
     C ←=sqrt(A^2 + B^2)
     Escribir "La hipotenusa es: ", C
 Fin
+```
 
+```
 4. Inicio
     Leer día_nacimiento, mes_nacimiento, año_nacimiento
     Leer día_actual, mes_actual, año_actual
@@ -37,6 +42,9 @@ Fin
 
     Escribir "Su edad actual es: ", edad
 Fin
+```
+
+```
 5.Inicio
     Leer horas_trabajadas, pago_por_hora
 
@@ -57,7 +65,9 @@ Fin
 
     Escribir "El sueldo semanal es: ", sueldo
 Fin
+```
 
+```
 6.Inicio
     Leer N
     ceros ← 0
@@ -80,6 +90,9 @@ Fin
     Escribir "Negativos:", negativos
     Escribir "Positivos:", positivos
 Fin
+```
+
+```
 7.Inicio
     ahorro_diario ← 0.03  // Inicia con 3 centavos
     ahorro_total ← 0      // Acumulador del ahorro anual
@@ -92,6 +105,10 @@ Fin
 
     Escribir "El ahorro total en un año es: $", ahorro_total
 Fin
+
+```
+
+```
 8.Inicio
     Leer N  // Número de artículos
     total_a_pagar = 0
@@ -114,6 +131,9 @@ Fin
 
     Escribir "Total a pagar: ", total_a_pagar
 Fin
+```
+
+```
 9.Inicio
     Leer x
     termino ← 1
@@ -128,6 +148,10 @@ Fin
 
     Escribir "e^", x, " ≈ ", resultado
 Fin
+
+```
+
+```
 10. INICIO  
     Escribir "Ingrese el ángulo en radianes: "
     Leer x
@@ -145,3 +169,4 @@ Fin
 
     Escribir "El seno de", x, "es aproximadamente", seno
 FIN
+```
